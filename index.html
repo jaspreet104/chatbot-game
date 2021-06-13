@@ -97,10 +97,18 @@
         .d-flex {
             display: flex!important;
         }
-        .iframe {
+        .iframe1 {
             position: absolute;
             bottom: 0;
             right: 0;
+            width: 535px;
+            height: 380px;
+            z-index: 999;
+        }
+        .iframe2 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
             width: 535px;
             height: 380px;
             z-index: 999;
@@ -123,13 +131,20 @@
     </main>
 
     <iframe
-            class="iframe"
+            class="iframe1"
             allow="microphone;"
             width="350"
             height="430"
             src="https://console.dialogflow.com/api-client/demo/embedded/c93b4077-3ba2-4cce-aec1-38eac2f0bc25">
     </iframe>
 
+    <iframe
+            class="iframe2"
+            allow="microphone;"
+            width="350"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/b0eae62f-81bd-49b0-a535-fa0971365073">
+    </iframe>
 </div>
 
 
